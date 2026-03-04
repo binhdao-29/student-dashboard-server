@@ -54,6 +54,9 @@ router.render = (req, res) => {
   res.jsonp(data);
 };
 
+// Test trigger
+console.log('123');
+
 // Use default router
 server.use(router);
 server.listen(PORT, () => {
