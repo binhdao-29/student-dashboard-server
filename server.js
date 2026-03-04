@@ -59,6 +59,8 @@ console.log('123');
 
 const test = 5;
 
+const x = 5 / n;
+
 // Use default router
 server.use(router);
 server.listen(PORT, () => {
