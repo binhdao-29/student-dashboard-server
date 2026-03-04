@@ -54,8 +54,16 @@ router.render = (req, res) => {
   res.jsonp(data);
 };
 
+// Test trigger
+console.log('123');
+
+const test = 5;
+
+const x = 5 / n;
+
 // Use default router
 server.use(router);
 server.listen(PORT, () => {
   console.log(`JSON Server is running at http://localhost:${PORT}`);
+  console.log(x); // test agent
 });
